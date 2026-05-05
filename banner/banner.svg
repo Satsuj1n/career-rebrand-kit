@@ -1,0 +1,339 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07080f"/>
+      <stop offset="0.5" stop-color="#0f1019"/>
+      <stop offset="1" stop-color="#1a1b27"/>
+    </linearGradient>
+
+    <!-- Nebulas -->
+    <radialGradient id="neb1"><stop offset="0" stop-color="#70A5FD" stop-opacity="0.45"/><stop offset="1" stop-color="#70A5FD" stop-opacity="0"/></radialGradient>
+    <radialGradient id="neb2"><stop offset="0" stop-color="#7c3aed" stop-opacity="0.3"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+    <radialGradient id="neb3"><stop offset="0" stop-color="#06b6d4" stop-opacity="0.3"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0"/></radialGradient>
+
+    <!-- Central core glow (multi-layer) -->
+    <radialGradient id="coreHalo">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.15" stop-color="#70A5FD" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#06b6d4" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#70A5FD" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nodeGlow">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#70A5FD" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#70A5FD" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nodeGlowCyan">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#06b6d4" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Connection line gradient -->
+    <linearGradient id="lineG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#70A5FD" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#70A5FD" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#70A5FD" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <!-- Output stream gradient -->
+    <linearGradient id="streamG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#70A5FD" stop-opacity="0.7"/>
+      <stop offset="0.6" stop-color="#06b6d4" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Hex grid pattern (subtle) -->
+    <pattern id="hexGrid" x="0" y="0" width="48" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 24,0 L 48,12 L 48,30 L 24,42 L 0,30 L 0,12 Z"
+            fill="none" stroke="#70A5FD" stroke-width="0.4" stroke-opacity="0.07"/>
+    </pattern>
+
+    <linearGradient id="leftVignette" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.7"/>
+      <stop offset="0.28" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1584" height="396" fill="url(#bg)"/>
+
+  <!-- Hex grid overlay (subtle tech vibe) -->
+  <rect width="1584" height="396" fill="url(#hexGrid)"/>
+
+  <!-- Nebulas behind -->
+  <ellipse cx="1000" cy="200" rx="450" ry="200" fill="url(#neb1)"/>
+  <ellipse cx="1300" cy="240" rx="380" ry="170" fill="url(#neb2)"/>
+  <ellipse cx="850" cy="180" rx="320" ry="140" fill="url(#neb3)"/>
+
+  <!-- Coordinate axis hint (very subtle, suggests technical plane) -->
+  <g stroke="#70A5FD" stroke-width="0.5" stroke-opacity="0.1">
+    <line x1="450" y1="200" x2="1500" y2="200"/>
+    <line x1="1000" y1="40" x2="1000" y2="360"/>
+  </g>
+  <g stroke="#70A5FD" stroke-width="0.3" stroke-opacity="0.06">
+    <line x1="450" y1="120" x2="1500" y2="120"/>
+    <line x1="450" y1="280" x2="1500" y2="280"/>
+    <line x1="800" y1="40" x2="800" y2="360"/>
+    <line x1="1200" y1="40" x2="1200" y2="360"/>
+  </g>
+
+  <!-- Distant stars / data points -->
+  <g fill="#ffffff">
+    <circle cx="180" cy="80" r="0.6" opacity="0.5"/>
+    <circle cx="280" cy="160" r="0.4" opacity="0.4"/>
+    <circle cx="360" cy="60" r="0.7" opacity="0.6"/>
+    <circle cx="240" cy="280" r="0.5" opacity="0.4"/>
+    <circle cx="440" cy="220" r="0.6" opacity="0.5"/>
+    <circle cx="520" cy="90" r="0.8" opacity="0.7"/>
+    <circle cx="640" cy="50" r="0.6" opacity="0.6"/>
+    <circle cx="700" cy="320" r="0.7" opacity="0.55"/>
+    <circle cx="1380" cy="100" r="0.5" opacity="0.5"/>
+    <circle cx="1440" cy="320" r="0.7" opacity="0.5"/>
+    <circle cx="1500" cy="60" r="0.6" opacity="0.5"/>
+    <circle cx="1540" cy="280" r="0.7" opacity="0.6"/>
+    <circle cx="120" cy="200" r="0.5" opacity="0.4"/>
+    <circle cx="60" cy="100" r="0.6" opacity="0.4"/>
+    <circle cx="80" cy="320" r="0.5" opacity="0.4"/>
+  </g>
+
+  <!-- ============ INPUT STREAMS (faint, coming from left into network) ============ -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M 380,140 Q 600,150 820,165" stroke="url(#streamG)" stroke-width="1.2" opacity="0.5" transform="scale(-1 1) translate(-1584 0)"/>
+    <path d="M 380,200 Q 600,200 820,200" stroke="url(#streamG)" stroke-width="1.2" opacity="0.55" transform="scale(-1 1) translate(-1584 0)"/>
+    <path d="M 380,260 Q 600,250 820,235" stroke="url(#streamG)" stroke-width="1.2" opacity="0.5" transform="scale(-1 1) translate(-1584 0)"/>
+  </g>
+
+  <!-- Pulse particles on input streams -->
+  <g fill="#70A5FD" filter="url(#glow)">
+    <circle cx="700" cy="178" r="1.5" opacity="0.85"/>
+    <circle cx="620" cy="155" r="1.2" opacity="0.7"/>
+    <circle cx="750" cy="215" r="1.4" opacity="0.85"/>
+    <circle cx="680" cy="247" r="1.2" opacity="0.7"/>
+    <circle cx="780" cy="200" r="1.6" opacity="0.9"/>
+  </g>
+
+  <!-- ============ NETWORK CONNECTIONS ============ -->
+  <!-- Central core: (1000, 200) -->
+  <!-- Inner ring (6 nodes at r=72): -->
+  <!-- N1: (1062, 164) | N2: (1000, 128) | N3: (938, 164) -->
+  <!-- N4: (938, 236)  | N5: (1000, 272) | N6: (1062, 236) -->
+  <!-- Outer satellites: -->
+  <!-- S1: (1130, 100) | S2: (1150, 280) | S3: (820, 100) | S4: (840, 305) | S5: (1180, 200) -->
+
+  <!-- Lines: central to each inner node -->
+  <g stroke="url(#lineG)" stroke-width="1" fill="none" stroke-linecap="round">
+    <line x1="1000" y1="200" x2="1062" y2="164"/>
+    <line x1="1000" y1="200" x2="1000" y2="128"/>
+    <line x1="1000" y1="200" x2="938" y2="164"/>
+    <line x1="1000" y1="200" x2="938" y2="236"/>
+    <line x1="1000" y1="200" x2="1000" y2="272"/>
+    <line x1="1000" y1="200" x2="1062" y2="236"/>
+  </g>
+
+  <!-- Inner ring perimeter (hexagonal connections) -->
+  <g stroke="#70A5FD" stroke-width="0.7" fill="none" stroke-opacity="0.35" stroke-linecap="round">
+    <line x1="1062" y1="164" x2="1000" y2="128"/>
+    <line x1="1000" y1="128" x2="938" y2="164"/>
+    <line x1="938" y1="164" x2="938" y2="236"/>
+    <line x1="938" y1="236" x2="1000" y2="272"/>
+    <line x1="1000" y1="272" x2="1062" y2="236"/>
+    <line x1="1062" y1="236" x2="1062" y2="164"/>
+  </g>
+
+  <!-- Outer satellite connections -->
+  <g stroke="#70A5FD" stroke-width="0.6" fill="none" stroke-opacity="0.3" stroke-linecap="round">
+    <line x1="1062" y1="164" x2="1130" y2="100"/>
+    <line x1="1062" y1="236" x2="1150" y2="280"/>
+    <line x1="938" y1="164" x2="820" y2="100"/>
+    <line x1="938" y1="236" x2="840" y2="305"/>
+    <line x1="1062" y1="164" x2="1180" y2="200"/>
+    <line x1="1062" y1="236" x2="1180" y2="200"/>
+    <!-- Cross connections for richer network feel -->
+    <line x1="1000" y1="128" x2="1130" y2="100" stroke-opacity="0.2"/>
+    <line x1="1000" y1="272" x2="1150" y2="280" stroke-opacity="0.2"/>
+  </g>
+
+  <!-- ============ OUTPUT STREAMS (flowing right out of network) ============ -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M 1180,200 Q 1280,170 1400,140" stroke="url(#streamG)" stroke-width="1.5" opacity="0.85"/>
+    <path d="M 1180,200 Q 1290,210 1400,205" stroke="url(#streamG)" stroke-width="1.7" opacity="0.95"/>
+    <path d="M 1180,200 Q 1280,235 1400,265" stroke="url(#streamG)" stroke-width="1.5" opacity="0.85"/>
+  </g>
+
+  <!-- Pulse particles on output streams -->
+  <g fill="#ffffff" filter="url(#glow)">
+    <circle cx="1280" cy="170" r="1.8" opacity="0.95"/>
+    <circle cx="1340" cy="153" r="1.5" opacity="0.8"/>
+    <circle cx="1290" cy="208" r="2" opacity="0.95"/>
+    <circle cx="1360" cy="206" r="1.6" opacity="0.85"/>
+    <circle cx="1230" cy="218" r="1.4" opacity="0.85"/>
+    <circle cx="1280" cy="235" r="1.7" opacity="0.9"/>
+    <circle cx="1350" cy="252" r="1.4" opacity="0.8"/>
+  </g>
+
+  <!-- ============ NETWORK NODES ============ -->
+
+  <!-- Outer satellite nodes (smaller, dimmer) -->
+  <g>
+    <circle cx="1130" cy="100" r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="1130" cy="100" r="3" fill="#70A5FD"/>
+    <circle cx="1130" cy="99" r="1" fill="#ffffff"/>
+
+    <circle cx="1150" cy="280" r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="1150" cy="280" r="3" fill="#70A5FD"/>
+    <circle cx="1150" cy="279" r="1" fill="#ffffff"/>
+
+    <circle cx="820" cy="100" r="12" fill="url(#nodeGlow)" opacity="0.4"/>
+    <circle cx="820" cy="100" r="2.5" fill="#70A5FD"/>
+
+    <circle cx="840" cy="305" r="12" fill="url(#nodeGlow)" opacity="0.4"/>
+    <circle cx="840" cy="305" r="2.5" fill="#70A5FD"/>
+
+    <circle cx="1180" cy="200" r="16" fill="url(#nodeGlowCyan)" opacity="0.6"/>
+    <circle cx="1180" cy="200" r="3.5" fill="#06b6d4"/>
+    <circle cx="1180" cy="199" r="1.2" fill="#ffffff"/>
+  </g>
+
+  <!-- Inner ring nodes -->
+  <g>
+    <!-- N1: top right -->
+    <circle cx="1062" cy="164" r="22" fill="url(#nodeGlow)" opacity="0.65"/>
+    <circle cx="1062" cy="164" r="6" fill="#70A5FD"/>
+    <circle cx="1062" cy="164" r="3.5" fill="#ffffff"/>
+    <circle cx="1061" cy="163" r="1.5" fill="#ffffff"/>
+
+    <!-- N2: top -->
+    <circle cx="1000" cy="128" r="22" fill="url(#nodeGlow)" opacity="0.65"/>
+    <circle cx="1000" cy="128" r="6" fill="#70A5FD"/>
+    <circle cx="1000" cy="128" r="3.5" fill="#ffffff"/>
+    <circle cx="999" cy="127" r="1.5" fill="#ffffff"/>
+
+    <!-- N3: top left -->
+    <circle cx="938" cy="164" r="22" fill="url(#nodeGlow)" opacity="0.65"/>
+    <circle cx="938" cy="164" r="6" fill="#70A5FD"/>
+    <circle cx="938" cy="164" r="3.5" fill="#ffffff"/>
+    <circle cx="937" cy="163" r="1.5" fill="#ffffff"/>
+
+    <!-- N4: bottom left -->
+    <circle cx="938" cy="236" r="22" fill="url(#nodeGlow)" opacity="0.65"/>
+    <circle cx="938" cy="236" r="6" fill="#70A5FD"/>
+    <circle cx="938" cy="236" r="3.5" fill="#ffffff"/>
+    <circle cx="937" cy="235" r="1.5" fill="#ffffff"/>
+
+    <!-- N5: bottom -->
+    <circle cx="1000" cy="272" r="22" fill="url(#nodeGlow)" opacity="0.65"/>
+    <circle cx="1000" cy="272" r="6" fill="#70A5FD"/>
+    <circle cx="1000" cy="272" r="3.5" fill="#ffffff"/>
+    <circle cx="999" cy="271" r="1.5" fill="#ffffff"/>
+
+    <!-- N6: bottom right -->
+    <circle cx="1062" cy="236" r="22" fill="url(#nodeGlow)" opacity="0.65"/>
+    <circle cx="1062" cy="236" r="6" fill="#70A5FD"/>
+    <circle cx="1062" cy="236" r="3.5" fill="#ffffff"/>
+    <circle cx="1061" cy="235" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- ============ CENTRAL CORE (the agent) ============ -->
+  <g>
+    <!-- Massive halo -->
+    <circle cx="1000" cy="200" r="120" fill="url(#coreHalo)" opacity="0.35"/>
+    <circle cx="1000" cy="200" r="70" fill="url(#coreHalo)" opacity="0.5"/>
+    <circle cx="1000" cy="200" r="40" fill="url(#coreHalo)" opacity="0.75"/>
+
+    <!-- Outer ring (orbital) -->
+    <circle cx="1000" cy="200" r="28" fill="none" stroke="#70A5FD" stroke-width="0.8" stroke-opacity="0.7"/>
+    <!-- Ring tick marks (4 cardinal) -->
+    <g fill="#ffffff" opacity="0.85">
+      <circle cx="1028" cy="200" r="1.2"/>
+      <circle cx="972" cy="200" r="1.2"/>
+      <circle cx="1000" cy="172" r="1.2"/>
+      <circle cx="1000" cy="228" r="1.2"/>
+    </g>
+
+    <!-- Inner core ring -->
+    <circle cx="1000" cy="200" r="16" fill="none" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.9"/>
+
+    <!-- Solid core -->
+    <circle cx="1000" cy="200" r="11" fill="#70A5FD"/>
+    <circle cx="1000" cy="200" r="8" fill="#ffffff" opacity="0.9"/>
+    <circle cx="999" cy="199" r="3.5" fill="#ffffff"/>
+  </g>
+
+  <!-- Pulse particles on inner connections (signaling data flow) -->
+  <g fill="#ffffff" filter="url(#glow)">
+    <circle cx="1031" cy="182" r="1.4" opacity="0.9"/>
+    <circle cx="1000" cy="164" r="1.4" opacity="0.9"/>
+    <circle cx="969" cy="182" r="1.4" opacity="0.9"/>
+    <circle cx="969" cy="218" r="1.4" opacity="0.9"/>
+    <circle cx="1000" cy="236" r="1.4" opacity="0.9"/>
+    <circle cx="1031" cy="218" r="1.4" opacity="0.9"/>
+  </g>
+
+  <!-- Hex perimeter pulses -->
+  <g fill="#06b6d4" filter="url(#glow)">
+    <circle cx="1031" cy="146" r="1.1" opacity="0.85"/>
+    <circle cx="970" cy="146" r="1.1" opacity="0.85"/>
+    <circle cx="970" cy="254" r="1.1" opacity="0.85"/>
+    <circle cx="1031" cy="254" r="1.1" opacity="0.85"/>
+  </g>
+
+  <!-- ============ FINAL OUTPUT BURST (right edge) ============ -->
+  <!-- Sparkle cluster suggesting "result emitted" -->
+  <g transform="translate(1430 200)">
+    <!-- Halo -->
+    <circle cx="0" cy="0" r="50" fill="url(#nodeGlow)" opacity="0.4"/>
+    <circle cx="0" cy="0" r="25" fill="url(#nodeGlow)" opacity="0.7"/>
+    <!-- Star sparkle -->
+    <g filter="url(#glow)">
+      <path d="M 0,-32 Q 2,-4 0,0 Q -2,-4 0,-32 Z" fill="#ffffff"/>
+      <path d="M 0,32 Q 2,4 0,0 Q -2,4 0,32 Z" fill="#ffffff"/>
+      <path d="M -32,0 Q -4,-2 0,0 Q -4,2 -32,0 Z" fill="#ffffff"/>
+      <path d="M 32,0 Q 4,-2 0,0 Q 4,2 32,0 Z" fill="#ffffff"/>
+      <path d="M -16,-16 Q -3,-2 0,0 Q -2,-3 -16,-16 Z" fill="#c4d8f5" opacity="0.85"/>
+      <path d="M 16,16 Q 3,2 0,0 Q 2,3 16,16 Z" fill="#c4d8f5" opacity="0.85"/>
+      <path d="M 16,-16 Q 3,-2 0,0 Q 2,-3 16,-16 Z" fill="#c4d8f5" opacity="0.85"/>
+      <path d="M -16,16 Q -3,2 0,0 Q -2,3 -16,16 Z" fill="#c4d8f5" opacity="0.85"/>
+    </g>
+    <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+  </g>
+
+  <!-- Secondary smaller sparkles around final burst -->
+  <g transform="translate(1490 130)" filter="url(#glow)" opacity="0.8">
+    <path d="M 0,-14 Q 1,-2 0,0 Q -1,-2 0,-14 Z" fill="#c4d8f5"/>
+    <path d="M 0,14 Q 1,2 0,0 Q -1,2 0,14 Z" fill="#c4d8f5"/>
+    <path d="M -14,0 Q -2,-1 0,0 Q -2,1 -14,0 Z" fill="#c4d8f5"/>
+    <path d="M 14,0 Q 2,-1 0,0 Q 2,1 14,0 Z" fill="#c4d8f5"/>
+  </g>
+  <g transform="translate(1505 270)" filter="url(#glow)" opacity="0.7">
+    <path d="M 0,-11 Q 1,-2 0,0 Q -1,-2 0,-11 Z" fill="#c4d8f5"/>
+    <path d="M 0,11 Q 1,2 0,0 Q -1,2 0,11 Z" fill="#c4d8f5"/>
+    <path d="M -11,0 Q -2,-1 0,0 Q -2,1 -11,0 Z" fill="#c4d8f5"/>
+    <path d="M 11,0 Q 2,-1 0,0 Q 2,1 11,0 Z" fill="#c4d8f5"/>
+  </g>
+
+  <!-- Drifting data particles (small, scattered) -->
+  <g fill="#70A5FD" filter="url(#glow)">
+    <circle cx="500" cy="150" r="1.2" opacity="0.5"/>
+    <circle cx="580" cy="280" r="1" opacity="0.5"/>
+    <circle cx="650" cy="100" r="0.9" opacity="0.5"/>
+    <circle cx="720" cy="320" r="1.1" opacity="0.55"/>
+    <circle cx="1240" cy="80" r="1" opacity="0.55"/>
+    <circle cx="1300" cy="340" r="1.2" opacity="0.55"/>
+  </g>
+
+  <!-- Left vignette for profile photo overlap -->
+  <rect width="1584" height="396" fill="url(#leftVignette)"/>
+</svg>
