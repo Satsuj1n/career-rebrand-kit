@@ -48,7 +48,7 @@ Vai precisar mexer principalmente em:
 
 - Substitui meu nome, links, projetos
 - A seção `## What I'm shipping` precisa apontar pra repos que **existam e estejam públicos**. Mentir aqui é tiro no pé — recrutador clica e vê.
-- Os projetos referenciados (Cosmic Trader, Claude Code Toolkit) são meus. Substitui pelos teus ou remove a seção.
+- Os projetos referenciados ([YOUR_PROJECT_1], [YOUR_PROJECT_2]) são meus. Substitui pelos teus ou remove a seção.
 
 Esse README vai num repo especial chamado `<seu-username>/<seu-username>`. Se ainda não tiver, cria o repo com esse nome exato e adiciona o `README.md` na raiz.
 

@@ -42,8 +42,8 @@ and MCP servers for agentic dev workflows.
 I'm open to USD remote contracts, part-time or full. Happy to share specifics
 on the trading agent architecture or my agent infrastructure work if useful.
 
-GitHub: github.com/Satsuj1n
-LinkedIn: linkedin.com/in/felipecampellolima
+GitHub: github.com/[YOUR_GITHUB]
+LinkedIn: linkedin.com/in/[YOUR_LINKEDIN_SLUG]
 
 [Your name]
 ```
@@ -64,7 +64,7 @@ LLM observability.
 
 Happy to share specifics if useful — my latest is a live crypto trading 
 agent on AWS, plus tooling around Claude Code and MCP. GitHub: 
-github.com/Satsuj1n
+github.com/[YOUR_GITHUB]
 
 Cheers
 ```

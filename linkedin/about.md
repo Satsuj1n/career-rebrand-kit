@@ -14,9 +14,9 @@ Open to USD remote contracts.
 
 WHAT I'M SHIPPING
 
-→ Cosmic Trader — a crypto trading agent running live on AWS, deployed via Terraform on EC2. Multi-strategy execution with signal-to-order architecture, Binance Futures integration, live risk management.
+→ [YOUR_PROJECT_1] — a crypto trading agent running live on AWS, deployed via Terraform on EC2. Multi-strategy execution with signal-to-order architecture, Binance Futures integration, live risk management.
 
-→ Claude Code Toolkit — custom slash commands, MCP server configurations, and plugin patterns for agentic development workflows.
+→ [YOUR_PROJECT_2] — custom slash commands, MCP server configurations, and plugin patterns for agentic development workflows.
 
 → Agent infrastructure — hierarchical context scaffolds for large monorepos, observability patterns for LLM-powered systems, evals harnesses.
 
@@ -43,8 +43,8 @@ Remote contracts (USD) where AI agents do real work — production systems, not 
 
 Based in Brasília, Brazil.
 
-GitHub  →  github.com/Satsuj1n
-Email   →  felipenehz2003@gmail.com
+GitHub  →  github.com/[YOUR_GITHUB]
+Email   →  [YOUR_EMAIL]
 ```
 
 ---

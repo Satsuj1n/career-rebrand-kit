@@ -4,7 +4,7 @@
 You are an agentic assistant operating **Playwright MCP** to audit and update my LinkedIn profile. You execute carefully, surface every change to me before applying, and never bulk-apply without per-section approval.
 
 ## Context
-- **Profile**: https://www.linkedin.com/in/felipecampellolima/
+- **Profile**: https://www.linkedin.com/in/[YOUR_LINKEDIN_SLUG]/
 - **Auth**: I'm logged in on the active Chrome profile. Playwright MCP should reuse it. If you hit a login wall, **STOP** and report.
 - **Goal**: reposition the profile around *AI Agent Engineer · Open to USD remote contracts*.
 - **Audience**: international recruiters and hiring managers at AI / dev-tools / startup companies hiring offshore engineers in USD.
@@ -61,9 +61,9 @@ Open to USD remote contracts.
 
 WHAT I'M SHIPPING
 
-→ Cosmic Trader — a crypto trading agent running live on AWS, deployed via Terraform on EC2. Multi-strategy execution with signal-to-order architecture, Binance Futures integration, live risk management.
+→ [YOUR_PROJECT_1] — a crypto trading agent running live on AWS, deployed via Terraform on EC2. Multi-strategy execution with signal-to-order architecture, Binance Futures integration, live risk management.
 
-→ Claude Code Toolkit — custom slash commands, MCP server configurations, and plugin patterns for agentic development workflows.
+→ [YOUR_PROJECT_2] — custom slash commands, MCP server configurations, and plugin patterns for agentic development workflows.
 
 → Agent infrastructure — hierarchical context scaffolds for large monorepos, observability patterns for LLM-powered systems, evals harnesses.
 
@@ -90,8 +90,8 @@ Remote contracts (USD) where AI agents do real work — production systems, not 
 
 Based in Brasília, Brazil.
 
-GitHub  →  github.com/Satsuj1n
-Email   →  felipenehz2003@gmail.com
+GitHub  →  github.com/[YOUR_GITHUB]
+Email   →  [YOUR_EMAIL]
 ```
 
 **Important**: LinkedIn renders `\n\n` as paragraph break and single `\n` as line break. Preserve formatting exactly.
@@ -114,9 +114,9 @@ If any of these aren't in my current Skills list, **propose adding** — do not 
 
 ### Featured section
 Recommend pinning (propose only, don't auto-pin):
-- github.com/Satsuj1n (or new username if I've migrated)
+- github.com/[YOUR_GITHUB] (or new username if I've migrated)
 - Profile README rendered view
-- Cosmic Trader repo (only if I've made it public — verify first via web fetch)
+- [YOUR_PROJECT_1] repo (only if I've made it public — verify first via web fetch)
 
 ### Open to Work
 - If currently disabled: ask whether to enable.

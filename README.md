@@ -80,7 +80,7 @@ career-rebrand-kit/
 
 Esse kit nasceu da minha própria transição. Os arquivos aqui são as versões finais que apliquei no meu perfil. Não invento — uso. Se quiser ver o contexto de cada decisão, lê os comentários inline em cada arquivo.
 
-Meu perfil: [github.com/Satsuj1n](https://github.com/Satsuj1n)
+Meu perfil: [github.com/[YOUR_GITHUB]](https://github.com/[YOUR_GITHUB])
 
 ---
 

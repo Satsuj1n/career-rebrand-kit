@@ -1,17 +1,17 @@
 <div align="center">
 
-# Felipe Campello D'Albuquerque Lima
+# [YOUR_NAME]
 
 ### AI Agent Engineer • LLM Systems • Python Backend • Cloud
 
 <p>
-  <a href="https://github.com/Satsuj1n">
-    <img src="https://img.shields.io/badge/GitHub-Satsuj1n-1a1b27?style=for-the-badge&logo=github&logoColor=70a5fd"/>
+  <a href="https://github.com/[YOUR_GITHUB]">
+    <img src="https://img.shields.io/badge/GitHub-[YOUR_GITHUB]-1a1b27?style=for-the-badge&logo=github&logoColor=70a5fd"/>
   </a>
-  <a href="https://www.linkedin.com/in/felipecampellolima/">
-    <img src="https://img.shields.io/badge/LinkedIn-Felipe%20Campello-1a1b27?style=for-the-badge&logo=linkedin&logoColor=70a5fd"/>
+  <a href="https://www.linkedin.com/in/[YOUR_LINKEDIN_SLUG]/">
+    <img src="https://img.shields.io/badge/LinkedIn-[YOUR_NAME]-1a1b27?style=for-the-badge&logo=linkedin&logoColor=70a5fd"/>
   </a>
-  <a href="mailto:felipenehz2003@gmail.com">
+  <a href="mailto:[YOUR_EMAIL]">
     <img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=70a5fd"/>
   </a>
 </p>
@@ -128,8 +128,8 @@ Automation & RPA         ███████████░░░░░
 
 ## What I'm shipping
 
-- **Cosmic Trader** — production crypto trading agent on AWS EC2, deployed via Terraform. Multi-strategy with `ta` indicators, signal → risk → execution architecture, Binance Futures integration.
-- **Claude Code Toolkit** — custom slash commands, MCP server configurations, and plugin ecosystem for agentic development workflows.
+- **[YOUR_PROJECT_1]** — production crypto trading agent on AWS EC2, deployed via Terraform. Multi-strategy with `ta` indicators, signal → risk → execution architecture, Binance Futures integration.
+- **[YOUR_PROJECT_2]** — custom slash commands, MCP server configurations, and plugin ecosystem for agentic development workflows.
 - **Agent Memory Patterns** — hierarchical CLAUDE.md scaffolds and per-folder context for large monorepos.
 
 ---
@@ -137,16 +137,16 @@ Automation & RPA         ███████████░░░░░
 ## Analytics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Satsuj1n&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satsuj1n&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=[YOUR_GITHUB]&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_GITHUB]&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Satsuj1n&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=[YOUR_GITHUB]&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Satsuj1n&theme=tokyo-night&hide_border=true&area=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=[YOUR_GITHUB]&theme=tokyo-night&hide_border=true&area=true" />
 </div>
 
 ---
@@ -154,7 +154,7 @@ Automation & RPA         ███████████░░░░░
 ## Contributions
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Satsuj1n/Satsuj1n/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/[YOUR_GITHUB]/[YOUR_GITHUB]/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
 
 ---
