@@ -36,7 +36,24 @@ Agent Memory Patterns - LLM context infrastructure
 
 PROFESSIONAL EXPERIENCE
 
-Full Stack Developer (Backend and Automation)
+Backend Java Developer
+SEA Tecnologia
+April 2026 - Present
+
+- Backend development on Liferay 7.4 CE platform, including Service Builder for the data layer, REST Builder for API contracts, and OSGi modules.
+- Doc-first workflow with ADRs, design docs and contracts authored before implementation.
+- GitLab MR review process with Conventional Commits.
+
+Tech Lead
+ArtRadar
+April 2026 - Present
+
+- Architected and built ArtRadar, a SaaS for art market intelligence covering auction houses, galleries and fairs analytics, using Django 5.2, DRF, Celery, PostgreSQL and Redis.
+- Clean Architecture covering View, Use Case and Repository layers with Test-Driven Development discipline using pytest and Factory Boy. Coverage gate enforced in CI.
+- Dual payment provider integration with Stripe as primary and Pagar.me as fallback, for compliance and availability.
+- CI/CD on GitHub Actions covering lint, test, and Docker build to GHCR. Gunicorn in production. Leading a 2-person development team.
+
+Full Stack Developer (Backend and Automation), part-time
 iZJob
 March 2026 - Present
 
@@ -68,7 +85,7 @@ August 2022 - Present
 SKILLS
 
 AI and Agents: Anthropic, OpenAI, Model Context Protocol (MCP), Claude Code, LangChain, Retrieval Augmented Generation (RAG), Prompt Engineering, Agent Evals
-Backend: Python, Django, FastAPI, Node.js, TypeScript, Java, Spring Boot, REST APIs, GraphQL, Async Workers
+Backend: Python, Django, FastAPI, Node.js, TypeScript, Java, Spring Boot, Liferay, REST APIs, GraphQL, Async Workers
 Cloud and DevOps: AWS, GCP, Terraform, Docker, Kubernetes, Helm, GitHub Actions, Cloud Build, Linux
 Data: PostgreSQL, MongoDB, Redis, pgvector, Firestore, Cloud SQL
 Automation: Playwright, SeleniumBase, Headless Browsers

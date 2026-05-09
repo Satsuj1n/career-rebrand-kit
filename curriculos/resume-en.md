@@ -35,7 +35,20 @@ Hierarchical CLAUDE.md scaffolds, per-folder context, observability patterns and
 
 ## Experience
 
-**Full Stack Developer (Backend & Automation)** — *iZJob* · *March 2026 – Present*
+**Backend Java Developer** — *SEA Tecnologia* · *April 2026 – Present*
+
+- Backend development on Liferay 7.4 CE — Service Builder for the data layer, REST Builder for API contracts, OSGi modules.
+- Doc-first workflow: ADRs, design docs and contracts authored before implementation.
+- GitLab MR review process with Conventional Commits.
+
+**Tech Lead** — *ArtRadar* · *April 2026 – Present*
+
+- Architected and built ArtRadar, a SaaS for art market intelligence (auction houses, galleries, fairs analytics) — Django 5.2, DRF, Celery, PostgreSQL, Redis.
+- Clean Architecture (View → Use Case → Repository) with TDD discipline (pytest, Factory Boy); coverage gate enforced in CI.
+- Dual payment provider integration — Stripe primary, Pagar.me fallback — for compliance and availability.
+- CI/CD on GitHub Actions (lint, test, Docker build to GHCR), gunicorn in production. Leading a 2-person dev team.
+
+**Full Stack Developer (Backend & Automation)** — *iZJob* (part-time) · *March 2026 – Present*
 
 - End-to-end ownership of Full Stack automation and RPA solutions: design, implementation, testing, monitoring.
 - Built robust automated flows with SeleniumBase handling edge cases (popups, timeouts, retries) at 95%+ execution success rate.
@@ -62,7 +75,7 @@ Hierarchical CLAUDE.md scaffolds, per-folder context, observability patterns and
 ## Stack
 
 - **AI / Agents** — Anthropic, OpenAI, MCP, Claude Code, LangChain, RAG, prompt engineering, agent evals
-- **Backend** — Python · Django · FastAPI · Node.js · TypeScript · Java · Spring Boot · REST · GraphQL · async workers
+- **Backend** — Python · Django · FastAPI · Node.js · TypeScript · Java · Spring Boot · Liferay · REST · GraphQL · async workers
 - **Cloud & DevOps** — AWS · GCP · Terraform · Docker · Kubernetes · Helm · GitHub Actions · Cloud Build · Linux
 - **Data** — PostgreSQL · MongoDB · Redis · pgvector · Firestore · Cloud SQL
 - **Automation** — Playwright · SeleniumBase · headless browsers

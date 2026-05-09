@@ -35,7 +35,20 @@ Scaffolds hierárquicos de CLAUDE.md, contexto por pasta, padrões de observabil
 
 ## Experiência Profissional
 
-**Full Stack Developer (Backend & Automação)** — *iZJob* · *Março 2026 – Atual*
+**Backend Java Developer** — *SEA Tecnologia* · *Abril 2026 – Atual*
+
+- Desenvolvimento backend na plataforma Liferay 7.4 CE — Service Builder para camada de dados, REST Builder para contratos de API, módulos OSGi.
+- Workflow doc-first: ADRs, design docs e contratos escritos antes da implementação.
+- Processo de code review via GitLab MRs com Conventional Commits.
+
+**Tech Lead** — *ArtRadar* · *Abril 2026 – Atual*
+
+- Arquitetei e construí o ArtRadar, SaaS de inteligência do mercado de arte (analytics de leilões, galerias e feiras) — Django 5.2, DRF, Celery, PostgreSQL, Redis.
+- Clean Architecture (View → Use Case → Repository) com disciplina TDD (pytest, Factory Boy); gate de coverage enforced no CI.
+- Integração com provider duplo de pagamento — Stripe principal, Pagar.me fallback — para compliance e disponibilidade.
+- CI/CD no GitHub Actions (lint, test, Docker build para GHCR), gunicorn em produção. Liderança de time de 2 devs.
+
+**Full Stack Developer (Backend & Automação)** — *iZJob* (part-time) · *Março 2026 – Atual*
 
 - Responsabilidade ponta a ponta em soluções Full Stack para automação e RPA: design, implementação, testes e monitoramento.
 - Implementação de fluxos automatizados robustos com SeleniumBase, tratando edge cases (popups, timeouts, retries) e garantindo 95%+ taxa de sucesso em execuções.
@@ -62,7 +75,7 @@ Scaffolds hierárquicos de CLAUDE.md, contexto por pasta, padrões de observabil
 ## Stack
 
 - **IA / Agentes** — Anthropic, OpenAI, MCP, Claude Code, LangChain, RAG, prompt engineering, agent evals
-- **Backend** — Python · Django · FastAPI · Node.js · TypeScript · Java · Spring Boot · REST · GraphQL · async workers
+- **Backend** — Python · Django · FastAPI · Node.js · TypeScript · Java · Spring Boot · Liferay · REST · GraphQL · async workers
 - **Cloud & DevOps** — AWS · GCP · Terraform · Docker · Kubernetes · Helm · GitHub Actions · Cloud Build · Linux
 - **Dados** — PostgreSQL · MongoDB · Redis · pgvector · Firestore · Cloud SQL
 - **Automação** — Playwright · SeleniumBase · headless browsers
