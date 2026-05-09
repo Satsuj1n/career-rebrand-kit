@@ -45,15 +45,6 @@ April 2026 - Present
 - Doc-first workflow with ADRs, design docs and contracts authored before implementation.
 - GitLab MR review process with Conventional Commits.
 
-Tech Lead
-ArtRadar
-April 2026 - Present
-
-- Architected and built ArtRadar, a SaaS for art market intelligence covering auction houses, galleries and fairs analytics, using Django 5.2, DRF, Celery, PostgreSQL and Redis.
-- Clean Architecture covering View, Use Case and Repository layers with Test-Driven Development discipline using pytest and Factory Boy. Coverage gate enforced in CI.
-- Dual payment provider integration with Stripe as primary and Pagar.me as fallback, for compliance and availability.
-- CI/CD on GitHub Actions covering lint, test, and Docker build to GHCR. Gunicorn in production. Leading a 2-person development team.
-
 Full Stack Developer (Backend and Automation), part-time
 iZJob
 March 2026 - Present
@@ -63,6 +54,15 @@ March 2026 - Present
 - Integrated legacy systems with modern web services through well-structured Python and Django APIs, with structured logging and failure alerting.
 - Optimized automations with distributed cache, throttling and parallelization, achieving 40 percent reduction in operational time and freeing 10 plus hours per week of manual processing.
 - Implemented end-to-end monitoring with dashboards and observability for full execution traceability and fast bottleneck detection.
+
+Tech Lead
+ArtRadar
+December 2025 - Present
+
+- Architected and built ArtRadar, a SaaS for art market intelligence covering auction houses, galleries and fairs analytics, using Django 5.2, DRF, Celery, PostgreSQL and Redis.
+- Clean Architecture covering View, Use Case and Repository layers with Test-Driven Development discipline using pytest and Factory Boy. Coverage gate enforced in CI.
+- Dual payment provider integration with Stripe as primary and Pagar.me as fallback, for compliance and availability.
+- CI/CD on GitHub Actions covering lint, test, and Docker build to GHCR. Gunicorn in production. Leading a 2-person development team.
 
 Full Stack Developer (Backend and DevOps)
 Coco Bambu Restaurante

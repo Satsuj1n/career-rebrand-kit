@@ -41,13 +41,6 @@ Scaffolds hierárquicos de CLAUDE.md, contexto por pasta, padrões de observabil
 - Workflow doc-first: ADRs, design docs e contratos escritos antes da implementação.
 - Processo de code review via GitLab MRs com Conventional Commits.
 
-**Tech Lead** — *ArtRadar* · *Abril 2026 – Atual*
-
-- Arquitetei e construí o ArtRadar, SaaS de inteligência do mercado de arte (analytics de leilões, galerias e feiras) — Django 5.2, DRF, Celery, PostgreSQL, Redis.
-- Clean Architecture (View → Use Case → Repository) com disciplina TDD (pytest, Factory Boy); gate de coverage enforced no CI.
-- Integração com provider duplo de pagamento — Stripe principal, Pagar.me fallback — para compliance e disponibilidade.
-- CI/CD no GitHub Actions (lint, test, Docker build para GHCR), gunicorn em produção. Liderança de time de 2 devs.
-
 **Full Stack Developer (Backend & Automação)** — *iZJob* (part-time) · *Março 2026 – Atual*
 
 - Responsabilidade ponta a ponta em soluções Full Stack para automação e RPA: design, implementação, testes e monitoramento.
@@ -55,6 +48,13 @@ Scaffolds hierárquicos de CLAUDE.md, contexto por pasta, padrões de observabil
 - Integração entre sistemas legados e serviços web modernos através de APIs bem estruturadas em Python/Django, com logging estruturado e alertas de falha.
 - Otimização de automações com cache distribuído, throttling e paralelização — 40% de redução em tempo operacional, liberando 10+ horas/semana de processamento manual.
 - Monitoramento end-to-end com dashboards e observabilidade, permitindo rastreabilidade completa de execuções e rápida identificação de gargalos.
+
+**Tech Lead** — *ArtRadar* · *Dezembro 2025 – Atual*
+
+- Arquitetei e construí o ArtRadar, SaaS de inteligência do mercado de arte (analytics de leilões, galerias e feiras) — Django 5.2, DRF, Celery, PostgreSQL, Redis.
+- Clean Architecture (View → Use Case → Repository) com disciplina TDD (pytest, Factory Boy); gate de coverage enforced no CI.
+- Integração com provider duplo de pagamento — Stripe principal, Pagar.me fallback — para compliance e disponibilidade.
+- CI/CD no GitHub Actions (lint, test, Docker build para GHCR), gunicorn em produção. Liderança de time de 2 devs.
 
 **Full Stack Developer (Backend & DevOps)** — *Coco Bambu Restaurante* · *Agosto 2024 – Março 2026*
 

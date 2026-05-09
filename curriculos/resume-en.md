@@ -41,13 +41,6 @@ Hierarchical CLAUDE.md scaffolds, per-folder context, observability patterns and
 - Doc-first workflow: ADRs, design docs and contracts authored before implementation.
 - GitLab MR review process with Conventional Commits.
 
-**Tech Lead** — *ArtRadar* · *April 2026 – Present*
-
-- Architected and built ArtRadar, a SaaS for art market intelligence (auction houses, galleries, fairs analytics) — Django 5.2, DRF, Celery, PostgreSQL, Redis.
-- Clean Architecture (View → Use Case → Repository) with TDD discipline (pytest, Factory Boy); coverage gate enforced in CI.
-- Dual payment provider integration — Stripe primary, Pagar.me fallback — for compliance and availability.
-- CI/CD on GitHub Actions (lint, test, Docker build to GHCR), gunicorn in production. Leading a 2-person dev team.
-
 **Full Stack Developer (Backend & Automation)** — *iZJob* (part-time) · *March 2026 – Present*
 
 - End-to-end ownership of Full Stack automation and RPA solutions: design, implementation, testing, monitoring.
@@ -55,6 +48,13 @@ Hierarchical CLAUDE.md scaffolds, per-folder context, observability patterns and
 - Integrated legacy systems with modern web services through well-structured Python/Django APIs, with structured logging and failure alerting.
 - Optimized automations with distributed cache, throttling and parallelization — 40% reduction in operational time, freeing 10+ hours/week of manual processing.
 - End-to-end monitoring with dashboards and observability for full execution traceability and fast bottleneck detection.
+
+**Tech Lead** — *ArtRadar* · *December 2025 – Present*
+
+- Architected and built ArtRadar, a SaaS for art market intelligence (auction houses, galleries, fairs analytics) — Django 5.2, DRF, Celery, PostgreSQL, Redis.
+- Clean Architecture (View → Use Case → Repository) with TDD discipline (pytest, Factory Boy); coverage gate enforced in CI.
+- Dual payment provider integration — Stripe primary, Pagar.me fallback — for compliance and availability.
+- CI/CD on GitHub Actions (lint, test, Docker build to GHCR), gunicorn in production. Leading a 2-person dev team.
 
 **Full Stack Developer (Backend & DevOps)** — *Coco Bambu Restaurante* · *August 2024 – March 2026*
 
