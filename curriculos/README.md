@@ -6,11 +6,12 @@ Versão currículo do rebrand. Espelha o pitch do `linkedin/about.md` e do `gith
 
 | Source (`.md`) | Output (`.pdf`) | Quando usar |
 |---|---|---|
-| `resume-en.md` | `resume-en.pdf` | **Padrão** pra recrutador estrangeiro / contratos USD remote em IA. Tipografia profissional. |
-| `curriculo-pt.md` | `curriculo-pt.pdf` | Aplicações BR. Mesma estrutura, prosa em PT-BR, jargão técnico mantido em inglês (`rate limiting`, `circuit breaker`, `agent evals` etc.). |
+| `resume-en.md` | `resume-en.pdf` | **Padrão** pra recrutador estrangeiro / contratos USD remote em IA. Tipografia profissional, minimalista. |
+| `curriculo-pt.md` | `curriculo-pt.pdf` | Aplicações BR minimalistas. Mesma estrutura, prosa em PT-BR, jargão técnico mantido em inglês (`rate limiting`, `circuit breaker`, `agent evals` etc.). |
 | `resume-en-ats.md` | `resume-en-ats.pdf` | Quando o ATS (Greenhouse, Workday, Taleo, Lever) for o filtro. Sem Unicode, sem formatação rica, URLs cruas, números com palavras (`10000 plus`, `99.98 percent`). |
+| `curriculo-pt-designed.md` | `curriculo-pt-designed.pdf` | Aplicações BR mid-market (Gupy, Solides) onde o visual ajuda. Acentos verdes, accent bar nas seções, skill pills, cargos coloridos. **Não** use pra recrutador internacional de eng/AI — o visual designed contradiz a voz anti-fluff do rebrand. |
 
-Os três arquivos são paralelos por desenho — qualquer mudança de conteúdo deve ser refletida nos três.
+Os quatro arquivos são paralelos por desenho — qualquer mudança de conteúdo deve ser refletida em todos.
 
 ## Como gerar PDF
 
