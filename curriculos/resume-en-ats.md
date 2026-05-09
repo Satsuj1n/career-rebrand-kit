@@ -13,7 +13,7 @@ Open to USD remote contracts.
 
 SUMMARY
 
-AI Agent Engineer with 2+ years of backend engineering experience. Build production AI agents and LLM systems on top of distributed services, async pipelines and observability. Currently shipping a live crypto trading agent on AWS, plus tooling around Claude Code, MCP servers, and agent orchestration. Treat agents as software: architecture, tests, observability and ops, not just clever prompts.
+AI Agent Engineer with 4 years of software engineering experience, including 2+ years of professional backend development. Build production AI agents and LLM systems on top of distributed services, async pipelines and observability. Currently shipping a live crypto trading agent on AWS, plus tooling around Claude Code, MCP servers, and agent orchestration. Treat agents as software: architecture, tests, observability and ops, not just clever prompts.
 
 
 FEATURED PROJECTS

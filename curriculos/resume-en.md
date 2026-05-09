@@ -11,7 +11,7 @@
 
 ## Summary
 
-I build production AI agents and LLM systems. Backend engineer by foundation — 2+ years shipping distributed services, async pipelines and observability — now applying that to autonomous workflows running in production, not demos. Currently shipping a live crypto trading agent on AWS, plus tooling around Claude Code, MCP servers, and agent orchestration.
+I build production AI agents and LLM systems. Backend foundation — 4 years in software engineering, including 2+ years shipping production distributed services, async pipelines and observability — now applying that to autonomous workflows running in production, not demos. Currently shipping a live crypto trading agent on AWS, plus tooling around Claude Code, MCP servers, and agent orchestration.
 
 My take: agents are software. They need architecture, tests, observability and ops — not just a clever prompt. That's the gap I close.
 

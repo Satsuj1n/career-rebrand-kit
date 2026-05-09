@@ -11,7 +11,7 @@
 
 ## Resumo
 
-Construo agentes de IA e sistemas LLM em produção. Engenheiro backend de formação — 2+ anos entregando serviços distribuídos, pipelines assíncronos e observabilidade — agora aplicando essa base em workflows autônomos rodando em produção, não demos. Atualmente operando um agente de trading de cripto ao vivo na AWS, além de tooling em torno de Claude Code, MCP servers e orquestração de agentes.
+Construo agentes de IA e sistemas LLM em produção. Fundação backend — 4 anos em engenharia de software, incluindo 2+ anos entregando serviços distribuídos em produção, pipelines assíncronos e observabilidade — agora aplicando essa base em workflows autônomos rodando em produção, não demos. Atualmente operando um agente de trading de cripto ao vivo na AWS, além de tooling em torno de Claude Code, MCP servers e orquestração de agentes.
 
 Minha posição: agentes são software. Precisam de arquitetura, testes, observabilidade e ops — não só de um prompt esperto. É essa lacuna que eu fecho.
 
