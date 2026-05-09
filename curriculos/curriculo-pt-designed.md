@@ -25,7 +25,7 @@ Rodando ao vivo em AWS EC2, deploy via Terraform. Execução multi-estratégia c
 
 ### Claude Code Toolkit — Tooling para desenvolvimento agentico
 
-Slash commands customizados, configurações de MCP servers, padrões de plugin e scaffolds hierárquicos de contexto para workflows agenticos em monorepos grandes.
+Slash commands customizados, configurações de MCP servers, padrões de plugin e scaffolds hierárquicos de contexto para workflows agenticos em monorepos grandes. Open-source em [github.com/Satsuj1n/claude-code-setup](https://github.com/Satsuj1n/claude-code-setup).
 
 ### Agent Memory Patterns — Infraestrutura de contexto para LLMs
 

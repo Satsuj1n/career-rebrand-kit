@@ -23,7 +23,7 @@ My take: agents are software. They need architecture, tests, observability and o
 
 Live on AWS EC2, deployed via Terraform. Multi-strategy execution with signal → risk → order architecture, Binance Futures integration, runtime risk management. Python.
 
-**Claude Code Toolkit** — Agentic dev tooling
+**Claude Code Toolkit** — Agentic dev tooling · open-source at [github.com/Satsuj1n/claude-code-setup](https://github.com/Satsuj1n/claude-code-setup)
 
 Custom slash commands, MCP server configurations, plugin patterns and hierarchical context scaffolds for agentic development workflows on large monorepos.
 

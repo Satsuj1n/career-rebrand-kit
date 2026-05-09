@@ -24,7 +24,8 @@ Cosmic Trader - Production crypto trading agent
 - Binance Futures integration, runtime risk management
 - Stack: Python
 
-Claude Code Toolkit - Agentic development tooling
+Claude Code Toolkit - Agentic development tooling (open source)
+URL: https://github.com/Satsuj1n/claude-code-setup
 - Custom slash commands and MCP server configurations
 - Plugin patterns and hierarchical context scaffolds
 - Designed for agentic development workflows in large monorepos
